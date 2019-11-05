@@ -57,7 +57,7 @@ public class RNAppUpdate extends ReactContextBaseJavaModule {
         }
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.setDataAndType(Uri.parse("file://" + file), "application/vnd.android.package-archive");
+        intent.setDataAndType(Uri.parse("content://" + file), "application/vnd.android.package-archive");
         getCurrentActivity().startActivity(intent);
     }
 }
