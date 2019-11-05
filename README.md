@@ -1,4 +1,11 @@
-# React Native AppUpdate
+# [Not Maintained] React Native AppUpdate
+
+Sorry, guys. I haven't developed React Native since a long time ago, so this repo is no longer maintained.
+
+If you still need this functionality, you can use [react-native-update-apk](https://github.com/mikehardy/react-native-update-apk) instead.
+
+---
+
 Update apk and update from app store in React Native.
 
 ## Installation
