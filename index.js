@@ -8,7 +8,7 @@ import RNFS from 'react-native-fs';
 
 const RNAppUpdate = NativeModules.RNAppUpdate;
 
-const jobId = -1;
+let jobId = -1;
 
 class AppUpdate {
   constructor(options) {
